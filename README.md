@@ -24,6 +24,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Bellman Expectation Equation | The Bellman expectation equation is the cornerstone of policy evaluation in reinforcement learning. | https://www.tensortonic.com/study-plans/cracking-rl/rl-bellman-expectation-equation |
 | Bellman Optimality Equation | Apply one Bellman optimality backup by maximizing expected immediate reward plus discounted next-state value. | https://www.tensortonic.com/study-plans/cracking-rl/rl-bellman-optimality-equation |
 | Discounted Returns | Compute reverse-time discounted returns from a reward sequence using a configurable discount factor and terminal bootstrap. | https://www.tensortonic.com/study-plans/cracking-rl/rl-discounted-returns |
+| Generalized Advantage Estimation (GAE) | Compute generalized advantage estimates by recursively combining rewards, value predictions, discounts, and GAE decay. | https://www.tensortonic.com/study-plans/cracking-rl/rl-generalized-advantage-estimation |
 | REINFORCE Gradient | Implement REINFORCE Gradient, and return the scalar loss as a float rounded to 4 decimals. | https://www.tensortonic.com/study-plans/cracking-rl/rl-reinforce-gradient |
 | REINFORCE with Baseline | Implement REINFORCE with Baseline, and return the scalar loss as a Python float, rounded to 4 decimals. | https://www.tensortonic.com/study-plans/cracking-rl/rl-reinforce-with-baseline |
 
