@@ -30,6 +30,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | PPO Clipped Surrogate Objective | Proximal Policy Optimization (PPO) optimizes a clipped surrogate objective that limits how far the new policy may drift from the data-collecting policy. | https://www.tensortonic.com/study-plans/cracking-rl/rl-ppo-clipped-surrogate |
 | REINFORCE Gradient | Implement REINFORCE Gradient, and return the scalar loss as a float rounded to 4 decimals. | https://www.tensortonic.com/study-plans/cracking-rl/rl-reinforce-gradient |
 | REINFORCE with Baseline | Implement REINFORCE with Baseline, and return the scalar loss as a Python float, rounded to 4 decimals. | https://www.tensortonic.com/study-plans/cracking-rl/rl-reinforce-with-baseline |
+| PPO with Reference-Policy KL | Compute a PPO policy objective with reference-policy KL regularization for stable RLHF optimization. | https://www.tensortonic.com/study-plans/cracking-rl/rl-rlhf-ppo-kl-loss |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/chensir1994)
 <!-- tensortonic:end -->
