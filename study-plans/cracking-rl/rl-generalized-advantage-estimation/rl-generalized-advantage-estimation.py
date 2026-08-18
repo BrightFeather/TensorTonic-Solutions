@@ -8,7 +8,7 @@ def gae_advantages(rewards, values, gamma, lam, last_value=0.0):
     values = torch.as_tensor(values, dtype=torch.float32)
     adv = torch.zeros_like(values, dtype=torch.float32)
     last_value = torch.as_tensor(last_value, dtype=torch.float32)
-    V_next = torch.cat([values[...,1:], last_value.expand(values.shape[:-1]).unsqueeze(-1)], -1)
+    V_next = torch.cat([values[...,1:], last_value.unsqueeze(-1)], -1)
     delta = rewards + gamma * V_next - values
     running = torch.zeros(rewards.shape[:-1], dtype=torch.float32)
     for i in range(values.shape[-1] - 1, -1, -1):
