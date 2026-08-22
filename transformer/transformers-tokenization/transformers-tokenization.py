@@ -34,12 +34,9 @@ class SimpleTokenizer:
         Use UNK for unknown words.
         """
         # YOUR CODE HERE
-        texts = text.lower().split()
-        res = []
+        
         unknown_id = self.word_to_id[self.unk_token]
-        for t in texts:
-            res.append(self.word_to_id.get(t, unknown_id))
-        return res
+        return [self.word_to_id.get(t, unknown_id) for t in text.lower().split()]
     
     def decode(self, ids: List[int]) -> str:
         """
@@ -47,8 +44,5 @@ class SimpleTokenizer:
         """
         # YOUR CODE HERE
         return ' '.join([self.id_to_word.get(id, self.unk_token) for id in ids])
-        # for id in ids:
-        #     res.append(self.word_to_id.get(id, self.unk_token))
-        # return res
-            
+
             
